@@ -16,6 +16,7 @@ jobs:
         with:
           repository: subupandian09/content-github-actions-deep-dive-lab
           token: ${{ secrets.TOKEN_GITHUB }}
+          ref: feature-initial-page
       - name: configure aws cli
         uses: aws-actions/configure-aws-credentials@v1
         with:
