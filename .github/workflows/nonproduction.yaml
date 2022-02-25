@@ -7,7 +7,7 @@ on:
       
 jobs:
   build:
-    run-on: self-hosted
+    runs-on: self-hosted
     env:
       BUCKET_NAME: cfst-3457-57be5034560f60d2871c53f31-nonprodbucket-1pjk33q1xmag5
     steps:
