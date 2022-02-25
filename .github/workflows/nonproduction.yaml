@@ -13,10 +13,6 @@ jobs:
     steps:
       - name: checkout code
         uses: action/checkout@v2
-        with:
-          repository: subupandian09/content-github-actions-deep-dive-lab
-          token: ${{ secrets.TOKEN_GITHUB }}
-          
       - name: configure aws cli
         uses: aws-actions/configure-aws-credentials@v1
         with:
